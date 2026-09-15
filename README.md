@@ -12,7 +12,7 @@
 1. > python -m venv .venv
 2. > source .venv/bin/activate
 3. to install libraries / dependencies, first create a requirements.txt file
-4. add openai, streamlit, python-dotenv, chromedb, pypdf to requirements.txt file
+4. add openai, streamlit, python-dotenv, chromadb, pypdf to requirements.txt file
 5. install dependencies by referring to requirements.txt file
 > pip install -r requirements.txt
 6. create a  .env file for API Key

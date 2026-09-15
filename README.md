@@ -19,6 +19,7 @@
 7. ensure .env file is grayed out (git ignored) - if not edit .gitignore to include .env
 8. Add secrets to .env
 > OPENAI_API_KEY="<insert>"
+> PASSWORD = ""
 
 ## CREATE SOME CODE
 1. create a python file (call it wathever I like)

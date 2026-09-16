@@ -15,6 +15,7 @@
 4. add openai, streamlit, python-dotenv, chromadb, pypdf to requirements.txt file
 5. install dependencies by referring to requirements.txt file
 > pip install -r requirements.txt
+> pip freeze > requirements.txt
 6. create a  .env file for API Key
 7. ensure .env file is grayed out (git ignored) - if not edit .gitignore to include .env
 8. Add secrets to .env
@@ -22,10 +23,12 @@
 > PASSWORD = ""
 
 ## CREATE SOME CODE
-1. create a python file (call it wathever I like)
+1. creat a pages folder
+> mkdir pages
+2. create a python file (call it wathever I like)
 > touch <name>.py
-2. run streamlit, reffering to the python file I created
->streamlit run home.py
+3. run streamlit, reffering to the python file I created
+> streamlit run home.py
 
 ## CREATE CODE IN YOUR PYTHON FILE
 
